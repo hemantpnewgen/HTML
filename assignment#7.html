@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+</head>
+<body>
+<form action="Script.php" method="get">
+	<fieldset>
+		<legend>
+		Your Details:
+		</legend>
+		Name: <input type="text" name="name"><br>
+		Email: <input type="text" name="email"><br>
+	</fieldset><br>
+	<fieldset>
+		<legend>
+		Your Review:
+		</legend>
+		How did you hear about us?
+		Email: <select>
+					<option>Google</option>
+					<option>Facebook</option>
+					<option>Family</option>
+					<option>Friend</option>
+				</select>
+		<br>Would you visit again?  <input type="radio" name="opt"> Yes <input type="radio" name="opt"> No <input type="radio" name="opt"> Maybe
+		<br>Comments:<br><textarea rows="10" cols="20">
+			Enter comments
+		</textarea><br>
+		<input type="checkbox" value="in" name="inb"> Sign me up for email updates <br>
+		<input type="submit" value="Submit review" name="sub">
+	</fieldset>
+
+</form>
+</body>
+</html>
